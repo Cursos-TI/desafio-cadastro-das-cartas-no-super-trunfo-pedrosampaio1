@@ -67,7 +67,7 @@ int main()
   estado2[strcspn(estado2, "\n")] = 0;
 
   // Código da carta
-  printf("Insira o código para identificar a Carta 1: \n");
+  printf("Insira o código para identificar a Carta 2: \n");
   fgets(codigoDaCarta2, sizeof(codigoDaCarta2), stdin);
   codigoDaCarta2[strcspn(codigoDaCarta2, "\n")] = 0;
 
