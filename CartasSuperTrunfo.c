@@ -6,11 +6,13 @@ int main()
   // Setando os atributos das cartas do jogo de trunfo
 
   char estado1[20], codigoDaCarta1[20], nomeDaCidade1[20];
-  int populacaoCarta1, pontosTuristicosCarta1;
+  int pontosTuristicosCarta1;
+  unsigned long int populacaoCarta1;
   float areaCarta1, pibCarta1;
 
   char estado2[20], codigoDaCarta2[20], nomeDaCidade2[20];
-  int populacaoCarta2, pontosTuristicosCarta2;
+  int pontosTuristicosCarta2;
+  unsigned long int populacaoCarta2;
   float areaCarta2, pibCarta2;
 
   printf("Bem vindo(a) ao Super Trunfo! \n");
@@ -34,7 +36,7 @@ int main()
 
   // População
   printf("Qual a população? \n");
-  scanf("%d", &populacaoCarta1);
+  scanf("%lu", &populacaoCarta1);
   while (getchar() != '\n');
 
   // Área
@@ -76,7 +78,7 @@ int main()
 
   // População
   printf("Qual a população? \n");
-  scanf("%d", &populacaoCarta2);
+  scanf("%lu", &populacaoCarta2);
   while (getchar() != '\n');
 
   // Área
@@ -103,7 +105,7 @@ int main()
   printf("Estado: %s\n", estado1);
   printf("Código: %s\n", codigoDaCarta1);
   printf("Cidade: %s\n", nomeDaCidade1);
-  printf("População: %d\n", populacaoCarta1);
+  printf("População: %lu\n", populacaoCarta1);
   printf("Área: %.2f km²\n", areaCarta1);
   printf("PIB: R$ %.2f\n", pibCarta1);
   printf("Pontos turísticos: %d\n", pontosTuristicosCarta1);
@@ -113,8 +115,8 @@ int main()
   printf("Estado: %s\n", estado2);
   printf("Código: %s\n", codigoDaCarta2);
   printf("Cidade: %s\n", nomeDaCidade2);
-  printf("População: %d\n", populacaoCarta2);
-  printf("Área: %.2f km²\n", areaCarta1);
+  printf("População: %lu\n", populacaoCarta2);
+  printf("Área: %.2f km²\n", areaCarta2);
   printf("PIB: R$ %.2f\n", pibCarta2);
   printf("Pontos turísticos: %d\n", pontosTuristicosCarta2);
 
