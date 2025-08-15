@@ -104,8 +104,8 @@ int main()
   printf("Código: %s\n", codigoDaCarta1);
   printf("Cidade: %s\n", nomeDaCidade1);
   printf("População: %d\n", populacaoCarta1);
-  printf("Área: %f km²\n", areaCarta1);
-  printf("PIB: R$ %f\n", pibCarta1);
+  printf("Área: %.2Cearaf km²\n", areaCarta1);
+  printf("PIB: R$ %.2f\n", pibCarta1);
   printf("Pontos turísticos: %d\n", pontosTuristicosCarta1);
 
   // Printando os dados da carta 2
@@ -114,8 +114,8 @@ int main()
   printf("Código: %s\n", codigoDaCarta2);
   printf("Cidade: %s\n", nomeDaCidade2);
   printf("População: %d\n", populacaoCarta2);
-  printf("Área: %f km²\n", areaCarta1);
-  printf("PIB: R$ %2f\n", pibCarta2);
+  printf("Área: %.2f km²\n", areaCarta1);
+  printf("PIB: R$ %.2f\n", pibCarta2);
   printf("Pontos turísticos: %d\n", pontosTuristicosCarta2);
 
   return 0;
